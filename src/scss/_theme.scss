@@ -1,0 +1,85 @@
+/* *************************************
+//
+//   TCB -- Theme
+//   -> 主視覺定義
+//
+//   01.Color
+//   02.Typography
+//   03.Components(padding, border...etc.)
+//
+//
+//
+// ************************************/
+
+/* -------------------------------------
+//   01.Color
+// -----------------------------------*/
+$gray-50: #FAFAFA !default;
+$gray-100: #F5F5F5 !default;
+$gray-200: #E6E6E6 !default;
+$gray-300: #D6D6D6 !default;
+$gray-400: #A5A5A5 !default;
+$gray-500: #767676 !default;
+$gray-600: #575757 !default;
+$gray-700: #434343 !default;
+$gray-800: #292929 !default;
+$gray-900: #1A1A1A !default;
+
+$body-bg: #f7f7f7;
+
+$link-color: #157fa4;
+
+/* -------------------------------------
+//   02.Typography
+// -----------------------------------*/
+$font-size-base: 1rem;
+
+/* ----- 修正微軟正黑體粗體 ----- */
+
+@font-face {
+    font-family: "Microsoft JHengHei Repair";
+    unicode-range: U+7db0, U+78A7, U+7B75;
+    /* ASCII (碧筵綰) */
+    font-style: normal;
+    font-weight: bold;
+    src: local(Yu Gothic), local(MS Gothic);
+}
+
+/* ----- 一般粗細的時候改回微軟正黑 ----- */
+
+@font-face {
+    font-family: "Microsoft JHengHei Repair";
+    unicode-range: U+7db0, U+78A7, U+7B75;
+    /* ASCII (碧筵綰) */
+    font-style: normal;
+    font-weight: normal;
+    src: local(微軟正黑體);
+}
+
+$font-family-sans-serif: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+"WenQuanYi Zen Hei",
+"Heiti TC",
+"Droid Sans",
+Roboto,
+"Microsoft JHengHei Repair",
+"Microsoft JHengHei",
+"Helvetica Neue",
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !default;
+
+/* -------------------------------------
+//   03.Components(padding, border...etc.)
+// ---------------------------------- */
+$spacer: 1rem !default;
+//$list-group-item-padding-y: $spacer / 10;
+
+/* ------ Breadcrumb ------ */
+$breadcrumb-bg: transparent;
+$breadcrumb-padding-x: 0;
+$breadcrumb-padding-y: 0;

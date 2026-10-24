@@ -1,0 +1,254 @@
+/* *************************************
+//
+//   TCB -- Reset Sharepoint
+//   -> 修正/移除Sharepoint預設樣式
+//
+//   00. 
+//   01. 搜尋結果頁面
+//   02. Modal相關（原生/Bootstrap）
+//   03. Sharepoint原生月曆頁面
+//   04.
+//   05.
+//   06.
+//   07.
+//   08.
+//   09.
+//
+// ************************************/
+
+/* -------------------------------------
+//   0.
+// -----------------------------------*/
+
+#pageStatusBar[class] {
+    margin-bottom: 0;
+}
+
+#contentBox {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    min-width: 0;
+}
+
+#contentRow {
+    padding-top: 0;
+}
+
+div.article,
+div.welcome {
+    padding: 0;
+}
+
+.article-content,
+.welcome-content {
+    margin: 0;
+}
+
+.ms-core-overlay {
+    // 修正body背景顏色
+    background-color: transparent;
+}
+
+.ms-pub-contentLayout {
+    // 修正內容頁面內容區塊背景顏色
+    background-color: transparent;
+}
+
+.ms-h1,
+.ms-h2,
+.ms-h3,
+.ms-h4,
+.ms-h5,
+.ms-h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.ms-rtestate-field h1,
+.ms-rtestate-field h2,
+h1.ms-rteElement-H1,
+h2.ms-rteElement-H2 {
+    color: $body-color;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button {
+    min-width: 0;
+
+    &:hover {
+        border-color: inherit;
+        background-color: inherit;
+    }
+}
+
+input[type="password"],
+input[type="text"],
+input[type="file"],
+input:not([type]),
+textarea,
+.ms-inputBox {
+    &.form-control {
+        color: $input-color;
+        padding: $input-padding-y $input-padding-x;
+        border: $input-border-width solid $input-border-color;
+        background-color: $input-bg;
+    }
+}
+
+.divDisabled {
+    color: #b1b1b1;
+    background-color: #fdfdfd;
+    border-color: #e1e1e1;
+}
+
+// 修正因theme而產生的多餘樣式
+.container {
+    color: $body-color;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none
+}
+
+
+// 修正編輯列因box-sizing設定跑版問題
+.ms-cui-tabContainer,
+.ms-csrlistview-controldiv {
+    * {
+        box-sizing: content-box;
+    }
+}
+
+.ms-InlineSearch-Outline-Baseline {
+    height: 1.75rem;
+}
+
+// 修正頁面標題不知為何被省略
+.ms-belltown-pageName.ms-noWrap {
+    white-space: normal;
+}
+
+/* -------------------------------------
+//   01. 搜尋結果頁面
+// -----------------------------------*/
+
+// 行動版時移除搜尋結果頁面側欄
+.ms-searchCenter-refinement {
+    @include media-breakpoint-down(lg) {
+        display: none;
+    }
+}
+
+
+// 調整搜尋結果頁面版面
+.ms-searchCenter-result-main {
+    width: 75%;
+}
+
+/*.ms-srch-item {
+    width: auto;
+}*/
+
+// 調整搜尋結果頁面文字
+
+.ms-srchnav-link,
+.ms-srchnav-link-selected {
+    font-size: 1.5rem;
+}
+
+.ms-srch-ellipsis {
+    margin-bottom: 0;
+}
+
+.ms-srch-item-link {
+    font-size: 1.125rem;
+}
+
+.ms-promlink-button {
+    box-sizing: content-box;
+}
+
+
+/* -------------------------------------
+//   02. Modal相關（原生/Bootstrap）
+// -----------------------------------*/
+
+.ms-dlgCloseBtn>span {
+    box-sizing: content-box;
+}
+
+.btn-close {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    border: none;
+    background-color: transparent;
+    float: right;
+    opacity: .5;
+}
+
+/* -------------------------------------
+//   03. Sharepoint原生月曆頁面
+// -----------------------------------*/
+
+
+/*#sideNavBox {
+    position: absolute;
+    left: -220px;
+}
+
+#ms-belltown-table {
+    @include make-container();
+    @include make-container-max-widths();
+    display: block;
+
+    .ms-table {
+        display: block;
+        position: relative;
+    }
+
+    .ms-tableRow {
+        display: block;
+    }
+
+    .contentwrapper {
+        min-width: auto;
+        margin: 0;
+    }
+
+}
+
+.contentwrapper {
+    @include make-container();
+    @include make-container-max-widths();
+}
+
+#DeltaPlaceHolderMain {}*/
+
+#sp-calendar {
+    #ms-belltown-table {
+        .ms-tableCell.ms-verticalAlignTop {
+            width: 200px;
+
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
+        }
+    }
+
+    .ms-picker-monthselected {
+        border-width: 2px !important;
+    }
+}

@@ -1,0 +1,87 @@
+html(lang="zh-Hant" class="scroll-smooth")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0")
+        link(rel="stylesheet" href="../src/css/style.css")
+    body
+        header
+            a(class="h1-logo" href="")
+                img(src="")
+            nav
+                ul
+                    - navLink = [["Top", "#"], ["About", ""], ["Works", ""], ["Contact", ""]]
+                    each val in navLink
+                        li
+                            a(class="navlink-item" href=val[1])= val[0]
+        // Top
+        section
+            div(class="section-title") Elsa Cheng
+            div(class="")
+                | Senior
+                span UI/UX
+                | Designer + Design
+                span Developer
+        // About
+        section
+            div(class)
+                img(src="")
+                div
+                    p
+                        | 擁有 10+ 年經驗的 UI/UX 設計師。
+                        br
+                        | 長期服務於大型企業與公共系統相關專案。
+                        br
+                        | 精於 RWD、無障礙規範與前端實作。
+                    p
+                        | 以設計與開發的雙重思維，
+                        br
+                        | 提供完整介面體驗設計，以及易於維護的高品質切版交付。
+                    button(class="btn" type="button") About Me
+        // Works
+        section
+            div(class="section-title") Selected Works
+            div(class="")
+                p
+                    | 因保密協議 (NDA) 限制，
+                    br
+                    | 企業專案已進行去識別化處理。
+            div(class="work-content")
+                div(class="work-item")
+                    img(class="work-thumb" src="")
+                    a(href="")
+                        span.work-title 公車即時動態資訊系統
+                        span.work-role UI/UX Design & Frontend Implementation
+                div(class="work-item")
+                    img(class="work-thumb" src="")
+                    a(href="")
+                        span.work-title
+                            | 銀行 VIP 尊爵權益平台
+                            br
+                            | －－前台 & 後台管理系統
+                        span.work-role UI/UX Design & Frontend Implementation
+                div(class="work-item")
+                    img(class="work-thumb" src="")
+                    a(href="")
+                        span.work-title
+                            | 銀行全站前端元件重構
+                            br
+                            | 與切版工作流導入
+                        span.work-role UI Development & Workflow Architecture
+            button(class="btn" type="button") More Works
+        // Contact
+        section
+            div(class="section-title") Contact
+            dl
+                dt 專案承接時程
+                dd 2026 年 11 月下旬起
+            p 目前開放 11 月下旬起的專案洽詢。若有急件或其他合作需求，歡迎來信討論。
+            button(class="btn-mail" type="button")
+                i.fas.fa-envelope
+                span elsacheng.dev@gmail.com
+        // Footer
+        footer
+            a(href="")
+            .footer-content
+                p © 2026 / Elsa Cheng
+                a(href="" target="_blank") View Source

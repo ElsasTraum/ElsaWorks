@@ -1,0 +1,886 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"border",
+				"border-gray-300"
+			],
+			[
+				"text",
+				"text-gray-500"
+			],
+			[
+				"text-",
+				"text-gray-500"
+			],
+			[
+				"tran",
+				"translate"
+			],
+			[
+				"tra",
+				"transform-origin"
+			],
+			[
+				"roun",
+				"rounded-"
+			],
+			[
+				"rounde",
+				"rounded-full"
+			],
+			[
+				"rounded",
+				"rounded-full"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"gap-x",
+				"gap-x-1"
+			],
+			[
+				"hover",
+				"hover:text-green-1000"
+			],
+			[
+				"te",
+				"text-green-600"
+			],
+			[
+				"sha",
+				"shadow-none"
+			],
+			[
+				"bg-",
+				"bg-cover "
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"text-green",
+				"text-green-600"
+			],
+			[
+				"h",
+				"h-full"
+			],
+			[
+				"font",
+				"font-normal"
+			],
+			[
+				"query",
+				"querySelectorAll"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"fl",
+				"flex-wrap"
+			],
+			[
+				"w",
+				"w-full "
+			],
+			[
+				"flo",
+				"float-left "
+			],
+			[
+				"ju",
+				"justify-self"
+			],
+			[
+				"or",
+				"order-2 "
+			],
+			[
+				"tex",
+				"text-left "
+			],
+			[
+				"item",
+				"items-center "
+			],
+			[
+				"lis",
+				"list-decimal "
+			],
+			[
+				"list-",
+				"list-none "
+			],
+			[
+				"ali",
+				"align-middle "
+			],
+			[
+				"transition",
+				"transition-all "
+			],
+			[
+				"s",
+				"scale()"
+			],
+			[
+				"inlin",
+				"inline-flex "
+			],
+			[
+				"op",
+				"opacity-0 "
+			],
+			[
+				"trans",
+				"transition-all "
+			],
+			[
+				"ov",
+				"overflow-hidden "
+			],
+			[
+				"h-",
+				"h-full "
+			],
+			[
+				"ove",
+				"overflow-hidden "
+			],
+			[
+				"po",
+				"pointer-events-none "
+			],
+			[
+				"group",
+				"group "
+			],
+			[
+				"item-",
+				"items-center "
+			],
+			[
+				"items",
+				"items-end "
+			],
+			[
+				"ites",
+				"items-stretch "
+			],
+			[
+				"bg-c",
+				"bg-center "
+			],
+			[
+				"bre",
+				"break-words "
+			],
+			[
+				"fle",
+				"flex-wrap "
+			],
+			[
+				"max",
+				"max-h-0 "
+			],
+			[
+				"inline",
+				"inline-flex "
+			],
+			[
+				"order",
+				"order-1 "
+			],
+			[
+				"tras",
+				"transition-all "
+			],
+			[
+				"transl",
+				"translate-y-1 "
+			],
+			[
+				"re",
+				"relative "
+			],
+			[
+				"top-",
+				"top-1/2 "
+			],
+			[
+				"font-",
+				"font-bold "
+			],
+			[
+				"align-",
+				"align-middle "
+			],
+			[
+				"l",
+				"leading-normal "
+			],
+			[
+				"data-",
+				"data-slide-card-slider"
+			],
+			[
+				"mt",
+				"mt-10 "
+			],
+			[
+				"peer",
+				"peer-focus: "
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"le",
+				"left-0 "
+			],
+			[
+				"bo",
+				"bottom-0 "
+			],
+			[
+				"text-c",
+				"text-cathay-graytext"
+			],
+			[
+				"flex-",
+				"flex-col "
+			],
+			[
+				"over",
+				"overflow-hidden "
+			],
+			[
+				"shadow",
+				"shadow-none "
+			],
+			[
+				"rounded-",
+				"rounded-none "
+			],
+			[
+				"tex-",
+				"text-left "
+			],
+			[
+				"orde",
+				"order-1 "
+			],
+			[
+				"ord",
+				"order-2 "
+			],
+			[
+				"ite",
+				"items-center "
+			],
+			[
+				"overfl",
+				"overflow-visible "
+			],
+			[
+				"tranla",
+				"translate-x-1/2 "
+			],
+			[
+				"max-w-",
+				"max-w-max "
+			],
+			[
+				"max-w",
+				"max-w-none "
+			],
+			[
+				"border-",
+				"border-t "
+			],
+			[
+				"j",
+				"justify-center "
+			],
+			[
+				"outl",
+				"outline-0 "
+			],
+			[
+				"list",
+				"list-decimal "
+			],
+			[
+				"text-cat",
+				"text-cathay-green"
+			],
+			[
+				"transi",
+				"transition-all "
+			],
+			[
+				"leading-n",
+				"leading-none "
+			],
+			[
+				"items-",
+				"items-end "
+			],
+			[
+				"de",
+				"decoration-0 "
+			],
+			[
+				"lea",
+				"leading-none "
+			],
+			[
+				"jy",
+				"justify-center "
+			],
+			[
+				"ca",
+				"cathay-green"
+			],
+			[
+				"qu",
+				"querySelectorAll"
+			],
+			[
+				"modal",
+				"modal-sm"
+			],
+			[
+				"fon",
+				"font-bold "
+			],
+			[
+				"left",
+				"left-0 "
+			],
+			[
+				"ob",
+				"object-cover "
+			],
+			[
+				"transle",
+				"translate-x-1/2 "
+			],
+			[
+				"transla",
+				"translate-x-1/2 "
+			],
+			[
+				"content",
+				"content-center "
+			],
+			[
+				"ma",
+				"max-w-full "
+			],
+			[
+				"-trans",
+				"-translate-x-1/2 "
+			],
+			[
+				"bg-n",
+				"bg-no-repeat "
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"da",
+				"datalabels"
+			],
+			[
+				"chart",
+				"chartArea"
+			],
+			[
+				"MA",
+				"MAU次月回訪率"
+			],
+			[
+				"fo",
+				"focus"
+			],
+			[
+				"width",
+				"widthY2"
+			],
+			[
+				"wid",
+				"widthX"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ta",
+				"table-sm"
+			],
+			[
+				"table",
+				"table-sm"
+			],
+			[
+				"fas",
+				"fa-search"
+			],
+			[
+				"ml",
+				"ml-auto"
+			],
+			[
+				"fa",
+				"fa-info-circle"
+			],
+			[
+				"mb",
+				"mb-4"
+			],
+			[
+				"px",
+				"px-2"
+			],
+			[
+				"fa-ci",
+				"fa-info-circle"
+			],
+			[
+				"my-",
+				"my-2"
+			],
+			[
+				"btn",
+				"btn-tertiary"
+			],
+			[
+				"mo",
+				"modal-dialog-scrollable"
+			],
+			[
+				"mb-",
+				"mb-0"
+			],
+			[
+				"fs",
+				"fs-sm"
+			],
+			[
+				"mod",
+				"modal-dialog-centered"
+			],
+			[
+				"n",
+				"mx-n1"
+			],
+			[
+				"mx",
+				"mx-n1"
+			],
+			[
+				"col-",
+				"col-1"
+			],
+			[
+				"w-",
+				"w-100"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Advanced Install Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"A File Icon: Revert to a Freshly Installed State"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 142.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Repository/ElsaWorks"
+	],
+	"file_history":
+	[
+		"/E/Repository/esi-202410-cathaybk-aem/src/css/tailwind.css",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_A1-7.pug",
+		"/C/Users/Elsas/.ssh/bitbucket_public",
+		"/C/Users/Elsas/.ssh/bitbucket_private.ppk",
+		"/C/Users/Elsas/Dropbox/bitbucket_public",
+		"/C/Users/Elsas/Dropbox/m2ts_to_mp4.ps1",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-9-2_資料查詢 - 基金淨值查詢__SingleFund.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-9-2_資料查詢 - 基金淨值查詢__Default.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/js/A1-7.js",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-3-2_次要頁籤.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Elements__A1-7_表單.pug",
+		"/C/Users/Elsas/Desktop/Fabled Journey, Wages Included.md",
+		"/C/Users/Elsas/AppData/Roaming/Sublime Text/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/C/Users/Elsas/AppData/Roaming/Sublime Text/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Elsas/AppData/Roaming/Sublime Text/Packages/User/.jsbeautifyrc",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-9-2_資料查詢 - 基金淨值查詢__MultiFund.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-15-C_基金圖表元件.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/_templates/includes/_C1-9-2--search.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/vite.config.js",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-1-4_展開更多.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/_templates/_layout--elements.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-2-1-A_橫式大表格.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/scss/component/_A1-7.scss",
+		"/E/Repository/esi-202410-cathaybk-aem/tailwind.config.js",
+		"/E/Repository/esi-202410-cathaybk-aem/src/scss/component/_module.scss",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-4-1-A_附註元件.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C2-5-2_商品比較元件.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/_templates/_layout--components.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Elements__A1-2_按鈕.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Elements__A1-3_標籤.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_A1-2.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_C1-3-2.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-2-1-C_橫式比較表格.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-5-3_最新消息.pug",
+		"/E/Repository/esi-202410-cathaybk-aem/src/scss/tailwind.scss",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/_templates/classes/_classes--atoms.pug",
+		"/F/ME AND MY GIRL（’23年星組・博多座　ビル：暁千星） (20260130-1900 ＳＫＹ　ＳＴＡＧＥ)_zhtw.ass",
+		"/E/Repository/esi-202410-cathaybk-aem/src/scss/component/_c1-3-2.scss",
+		"/E/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-9-4-C_資金搜尋結果元件.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-4-1-A.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-4-1-A_附註元件.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/package.json",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/generate-components-index.cjs",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/watch-components-index.cjs",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-11-8_基金商品KV.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/components.yml",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/generate-components-index.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/watch-components-index.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/components.yml",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/generate-components-index.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/scss/component/_c1-10-2-B.scss",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-3-A_icon圖文Dividend.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-10-2-B_獨立功能卡片.pug",
+		"/C/Users/ESi/Downloads/kgibOther006 改後.css",
+		"/C/Users/ESi/Downloads/kgibOther006 改前.css",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-15-C_基金圖表元件.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-15-B_基金牌卡元件(無開合).pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-14-D_文章分享.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-14-C_三欄輪播文章卡片.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-14-A_影音圖文文章卡片.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/_layout--components.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-3-D_icon圖文-常用功能.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-6-A_提示文字卡.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-6-B_行銷圖文卡.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-9-3-A_資料數量統計.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-9-3-B_資料資訊顯示.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-9-4-A_基金搜尋篩選元件.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-9-4-C_資金搜尋結果元件.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-X-2-E_數值比較牌卡.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C2-1-4-B_理財警語(開合版).pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C2-1-4-C_頁尾快捷連結元件.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-1-2_分頁器.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-2-4_檔案欄位表.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-3-2_次要頁籤.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-4-2_完整元件彈窗.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-5-2-B_卡片式下載.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-5-3_最新消息.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-1-4_展開更多.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-2-1-A_橫式大表格.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-2-1-C_橫式比較表格.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-10-1_搜尋框.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-10-3_基金搜尋框.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_C1-9-3-B.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/classes/_classes--atoms.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/_mixins.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/includes/_C1-9-4-C--modeTable.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/_classes.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-11-8.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/includes/_C1-9-4-C--modeList.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-9-4-C.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-3-5_頁籤摘要元件.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_A1-3.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Elements__A1-3_標籤.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/scss/component/_module.scss",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_A1-7.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_A1-2.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-3-2.js",
+		"/C/Users/ESi/Dropbox/BoothBuy-0.18.user.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_tab.pug",
+		"/C/Users/ESi/Desktop/Vector 3.svg",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/dropdown.js",
+		"/C/Users/ESi/Desktop/Vector 2.svg",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-4-2.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-7-A_滑動式卡片圖文.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_C1-4-2.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-12-B_大圖banner-色塊版.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Elements__A1-7_表單.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_C1-1-2.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/classes/_classes--components.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/_layout--elements.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/mixins/_C1-3-2.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-8-7-A.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Elements__A1-2_按鈕.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/scss/choices/_theme.scss",
+		"/C/Users/ESi/Desktop/down.svg",
+		"/C/Users/ESi/Desktop/up.svg",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/scss/choices/choices-custom.scss",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-2-1_橫式表格.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-2-1_橫式表格(A/B/C).pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-14-B_輪播文章卡片.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/Component__C1-8-13_圖片說明.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/public/Component__C1-8-7-A滑動式卡片圖文.html",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/public/Component__C1-8-6-B_行銷圖文卡.html",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/includes/_C1-9-4-A--AdvancedFilterMB.pug",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-9-4-A.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-7-7.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/js/c1-3-5.js",
+		"/C/Users/ESi/Repository/esi-202410-cathaybk-aem/src/pug/_templates/includes/_C1-9-4-A--AssetClassTB.pug"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 508.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.exec":
+	{
+		"height": 142.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "ElsaWorks.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\ESi\\Repository\\esi-202203-aia\\ESi-202203-AIA.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 323.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

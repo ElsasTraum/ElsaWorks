@@ -1,0 +1,52 @@
+/* *************************************
+//
+//   TCB -- Base
+//   -> 基本html樣式定義
+//
+//   00.Global
+//
+// ************************************/
+/* -------------------------------------
+//   00.Global
+// -----------------------------------*/
+
+a {
+  text-decoration: none;
+
+  &:visited {
+    color: $link-color;
+  }
+
+  &:active,
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+  /*color: $link-color;
+
+    @include hover {
+        color: $link-hover-color;
+    }*/
+}
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"] {
+  -moz-appearance: textfield;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+/* 移除瀏覽器在input focus時的outline */
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+/* 修復safari的顯示bug */
+.row::after,
+.row::before {
+  width: 0;
+}
