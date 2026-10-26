@@ -21,7 +21,75 @@
 /* -------------------------------------
 //   01.Header
 // -----------------------------------*/
+.header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    justify-content: space-between;
+    padding-left: .75rem;
+    padding-right: 1.25rem;
+}
 
+.h1-logo {
+    display: flex;
+    header: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+
+    &__img {
+        height: 50px;
+        width: 50px;
+
+    }
+}
+
+.nav {
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .navlink-item {
+        display: flex;
+        color: $body-color;
+        font-size: 1.5rem;
+    }
+}
+
+/* -------------------------------------
+//   02.Content
+// -----------------------------------*/
+
+.section {
+    position: relative;
+}
+
+.section-title {
+    @include monomakh-regular;
+    font-size: 8rem;
+    letter-spacing: -2px;
+}
+
+.site-title {
+    position: absolute;
+    top: 50%;
+    left: .25rem;
+    transform: translateY(-50%);
+}
+
+.job-position {
+    position: absolute;
+    bottom: 0;
+    left: .5rem;
+    font-size: 3rem;
+}
 
 /* -------------------------------------
 //   99.Footer

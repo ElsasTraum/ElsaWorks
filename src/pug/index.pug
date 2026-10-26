@@ -3,29 +3,37 @@ html(lang="zh-Hant" class="scroll-smooth")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible" content="IE=edge")
         meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0")
-        link(rel="stylesheet" href="../src/css/style.css")
+        link(rel="stylesheet" href="../public/css/style.css")
+        title Works of Elsa Cheng
     body
-        header
-            a(class="h1-logo" href="")
-                img(src="")
-            nav
+        header.header
+            h1
+                a(class="h1-logo" href="")
+                    img(class="h1-logo__img" src="img/logo.svg")
+                    span.d-none Works of Elsa Cheng
+            nav.nav
                 ul
                     - navLink = [["Top", "#"], ["About", ""], ["Works", ""], ["Contact", ""]]
                     each val in navLink
                         li
                             a(class="navlink-item" href=val[1])= val[0]
         // Top
-        section
-            div(class="section-title") Elsa Cheng
-            div(class="")
-                | Senior
-                span UI/UX
-                | Designer + Design
-                span Developer
+        section.section.min-vh-100
+            h2(class="section-title site-title") Elsa Cheng
+            div(class="job-position")
+                span.prompt-light Senior
+                span.visually-hidden= ' '
+                span.prompt-bold UI/UX
+                span.visually-hidden= ' '
+                span.prompt-light Designer + Design
+                span.visually-hidden= ' '
+                span.prompt-bold Developer
         // About
-        section
+        section.section
+            h2(class="visually-hidden") About
             div(class)
-                img(src="")
+
+                img(src="" alt="")
                 div
                     p
                         | 擁有 10+ 年經驗的 UI/UX 設計師。
@@ -39,8 +47,8 @@ html(lang="zh-Hant" class="scroll-smooth")
                         | 提供完整介面體驗設計，以及易於維護的高品質切版交付。
                     button(class="btn" type="button") About Me
         // Works
-        section
-            div(class="section-title") Selected Works
+        section.section
+            h2(class="section-title") Selected Works
             div(class="")
                 p
                     | 因保密協議 (NDA) 限制，
@@ -70,8 +78,8 @@ html(lang="zh-Hant" class="scroll-smooth")
                         span.work-role UI Development & Workflow Architecture
             button(class="btn" type="button") More Works
         // Contact
-        section
-            div(class="section-title") Contact
+        section.section
+            h2(class="section-title") Contact
             dl
                 dt 專案承接時程
                 dd 2026 年 11 月下旬起

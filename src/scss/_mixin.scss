@@ -4,10 +4,24 @@
 //   -> Method
 //
 //
-//   01.Placeholder
+//   01.Font
 //   02.
 //   03.
 //
 //
 // ************************************/
 
+/* -------------------------------------
+//   01.Font
+// -----------------------------------*/
+
+@mixin prompt {
+    font-family: "Prompt", sans-serif;
+    font-style: normal;
+}
+
+@mixin monomakh-regular {
+    font-family: "Monomakh", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,19 +1,48 @@
 /* *************************************
 //
-//   TCB -- Module
+//   Works -- Module
 //   -> 元件模組
 //
-//   01.alert-slider
-//   02.Buttons
-//   03.Calendar
-//   04.Required mark(form)
-//   05.Card
-//   06.Text / Font Awesome
-//   07.Tab bar
-//   08.Select
+//   01.
+//   02.
+//   03.
+//   04.
+//   05.
+//   06.
+//   07.
+//   08.
 //   09.
 //
 // ************************************/
 /* -------------------------------------
-//   01. alert-slider
+//   01. Font
 // -----------------------------------*/
+
+.noto-sans-tc-400 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-sans-tc-700 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.prompt-light {
+    @include prompt;
+    font-weight: 300;
+}
+
+.prompt-bold {
+    @include prompt;
+    font-weight: 700;
+}
+
+.monomakh-regular {
+    @include monomakh-regular;
+}

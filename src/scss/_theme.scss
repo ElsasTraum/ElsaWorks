@@ -25,7 +25,7 @@ $gray-700: #434343 !default;
 $gray-800: #292929 !default;
 $gray-900: #1A1A1A !default;
 
-$body-bg: #f7f7f7;
+$body-bg: $gray-50;
 
 $link-color: #157fa4;
 
@@ -56,8 +56,13 @@ $font-size-base: 1rem;
     src: local(微軟正黑體);
 }
 
+/* ------ Google Font ------ */
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&family=Noto+Sans+TC:wght@400;700&family=Prompt:wght@300;700&display=swap');
+
+/* ------ 全站預設字型設定 ------ */
 $font-family-sans-serif: -apple-system,
 BlinkMacSystemFont,
+"Noto Sans TC"m,
 "Segoe UI",
 "WenQuanYi Zen Hei",
 "Heiti TC",
@@ -78,8 +83,3 @@ sans-serif,
 // ---------------------------------- */
 $spacer: 1rem !default;
 //$list-group-item-padding-y: $spacer / 10;
-
-/* ------ Breadcrumb ------ */
-$breadcrumb-bg: transparent;
-$breadcrumb-padding-x: 0;
-$breadcrumb-padding-y: 0;

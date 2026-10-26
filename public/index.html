@@ -4,11 +4,13 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-    <link rel="stylesheet" href="../src/css/style.css"/>
+    <link rel="stylesheet" href="../public/css/style.css"/>
+    <title>Works of Elsa Cheng</title>
   </head>
   <body>
-    <header><a class="h1-logo" href=""><img src=""/></a>
-      <nav>
+    <header class="header">
+      <h1><a class="h1-logo" href=""><img class="h1-logo__img" src="img/logo.svg"/><span class="d-none">Works of Elsa Cheng</span></a></h1>
+      <nav class="nav">
         <ul>
           <li><a class="navlink-item" href="#">Top</a></li>
           <li><a class="navlink-item" href="">About</a></li>
@@ -18,13 +20,14 @@
       </nav>
     </header>
     <!-- Top-->
-    <section>
-      <div class="section-title">Elsa Cheng</div>
-      <div>Senior<span>UI/UX</span>Designer + Design<span>Developer</span></div>
+    <section class="section min-vh-100">
+      <h2 class="section-title site-title">Elsa Cheng</h2>
+      <div class="job-position"><span class="prompt-light">Senior</span><span class="visually-hidden"> </span><span class="prompt-bold">UI/UX</span><span class="visually-hidden"> </span><span class="prompt-light">Designer + Design</span><span class="visually-hidden"> </span><span class="prompt-bold">Developer</span></div>
     </section>
     <!-- About-->
-    <section>
-      <div class="true"><img src=""/>
+    <section class="section">
+      <h2 class="visually-hidden">About</h2>
+      <div class="true"><img src="" alt=""/>
         <div>
           <p>擁有 10+ 年經驗的 UI/UX 設計師。<br/>長期服務於大型企業與公共系統相關專案。<br/>精於 RWD、無障礙規範與前端實作。</p>
           <p>以設計與開發的雙重思維，<br/>提供完整介面體驗設計，以及易於維護的高品質切版交付。</p>
@@ -33,8 +36,8 @@
       </div>
     </section>
     <!-- Works-->
-    <section>
-      <div class="section-title">Selected Works</div>
+    <section class="section">
+      <h2 class="section-title">Selected Works</h2>
       <div>
         <p>因保密協議 (NDA) 限制，<br/>企業專案已進行去識別化處理。</p>
       </div>
@@ -46,11 +49,20 @@
       <button class="btn" type="button">More Works</button>
     </section>
     <!-- Contact-->
-    <section>
-      <div class="section-title">Contact</div>
-      <div></div>
+    <section class="section">
+      <h2 class="section-title">Contact</h2>
+      <dl>
+        <dt>專案承接時程</dt>
+        <dd>2026 年 11 月下旬起</dd>
+      </dl>
+      <p>目前開放 11 月下旬起的專案洽詢。若有急件或其他合作需求，歡迎來信討論。</p>
+      <button class="btn-mail" type="button"><i class="fas fa-envelope"></i><span>elsacheng.dev@gmail.com</span></button>
     </section>
     <!-- Footer-->
-    <footer></footer>
+    <footer><a href=""></a>
+      <div class="footer-content">
+        <p>© 2026 / Elsa Cheng</p><a href="" target="_blank">View Source</a>
+      </div>
+    </footer>
   </body>
 </html>
