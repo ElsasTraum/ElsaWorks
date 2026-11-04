@@ -8,8 +8,9 @@
 /* ------ page style ------ */
 //@import "reset"; // 修正/移除Sharepoint預設樣式
 @import "base";
-@import "layout";
 @import "module";
+@import "layout";
+@import "partial";
 /*  */
 /* ------ 首頁 ------ */
 //@import "partial-index";

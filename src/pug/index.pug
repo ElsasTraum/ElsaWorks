@@ -8,7 +8,7 @@ html(lang="zh-Hant" class="scroll-smooth")
     body
         header.header
             h1
-                a(class="h1-logo" href="")
+                a(class="h1-logo" href="#")
                     img(class="h1-logo__img" src="img/logo.svg")
                     span.d-none Works of Elsa Cheng
             nav.nav
@@ -17,79 +17,86 @@ html(lang="zh-Hant" class="scroll-smooth")
                     each val in navLink
                         li
                             a(class="navlink-item" href=val[1])= val[0]
-        // Top
-        section.section.min-vh-100
-            h2(class="section-title site-title") Elsa Cheng
-            div(class="job-position")
-                span.prompt-light Senior
-                span.visually-hidden= ' '
-                span.prompt-bold UI/UX
-                span.visually-hidden= ' '
-                span.prompt-light Designer + Design
-                span.visually-hidden= ' '
-                span.prompt-bold Developer
-        // About
-        section.section
-            h2(class="visually-hidden") About
-            div(class)
+        .wrapper
+            // Top
+            section.section.min-vh-100
+                h2(class="section-title site-title") Elsa Cheng
+                div(class="job-position")
+                    span.prompt-light Senior
+                    span.visually-hidden= ' '
+                    span.prompt-bold UI/UX
+                    span.visually-hidden= ' '
+                    span.prompt-light Designer + Design
+                    span.visually-hidden= ' '
+                    span.prompt-bold Developer
+            // About
+            section.section.min-vh-100.justify-content-center
+                h2(class="visually-hidden") About
+                div(class="about-content")
 
-                img(src="" alt="")
-                div
-                    p
-                        | 擁有 10+ 年經驗的 UI/UX 設計師。
-                        br
-                        | 長期服務於大型企業與公共系統相關專案。
-                        br
-                        | 精於 RWD、無障礙規範與前端實作。
-                    p
-                        | 以設計與開發的雙重思維，
-                        br
-                        | 提供完整介面體驗設計，以及易於維護的高品質切版交付。
-                    button(class="btn" type="button") About Me
-        // Works
-        section.section
-            h2(class="section-title") Selected Works
-            div(class="")
-                p
-                    | 因保密協議 (NDA) 限制，
-                    br
-                    | 企業專案已進行去識別化處理。
-            div(class="work-content")
-                div(class="work-item")
-                    img(class="work-thumb" src="")
-                    a(href="")
-                        span.work-title 公車即時動態資訊系統
-                        span.work-role UI/UX Design & Frontend Implementation
-                div(class="work-item")
-                    img(class="work-thumb" src="")
-                    a(href="")
-                        span.work-title
-                            | 銀行 VIP 尊爵權益平台
+                    img(class="about-content__img" src="https://picsum.photos/280/350" alt="")
+                    div(class="about-content__txt")
+                        p
+                            | 擁有 10+ 年經驗的 UI/UX 設計師。
                             br
-                            | －－前台 & 後台管理系統
-                        span.work-role UI/UX Design & Frontend Implementation
-                div(class="work-item")
-                    img(class="work-thumb" src="")
-                    a(href="")
-                        span.work-title
-                            | 銀行全站前端元件重構
+                            | 長期服務於大型企業與公共系統相關專案。
                             br
-                            | 與切版工作流導入
-                        span.work-role UI Development & Workflow Architecture
-            button(class="btn" type="button") More Works
-        // Contact
-        section.section
-            h2(class="section-title") Contact
-            dl
-                dt 專案承接時程
-                dd 2026 年 11 月下旬起
-            p 目前開放 11 月下旬起的專案洽詢。若有急件或其他合作需求，歡迎來信討論。
-            button(class="btn-mail" type="button")
-                i.fas.fa-envelope
-                span elsacheng.dev@gmail.com
-        // Footer
-        footer
+                            | 精於 RWD、無障礙規範與前端實作。
+                        p
+                            | 以設計與開發的雙重思維，
+                            br
+                            | 提供完整介面體驗設計，以及易於維護的高品質切版交付。
+                        button(class="btn" type="button") More About Me
+            // Works
+            section.section
+                h2(class="section-title") Selected Works
+                div(class="section-title-caption")
+                    p
+                        | 因保密協議 (NDA) 限制，
+                        br
+                        | 企業專案已進行去識別化處理。
+                div(class="works-container")
+                    div(class="work-item")
+                        .work-item__thumb
+                            img(class="" src="https://picsum.photos/670/350")
+                        a(class="work-item__link" href="")
+                            span.work-item__title 公車即時動態資訊系統
+                            span.work-item__role UI/UX Design & Frontend Implementation
+                    div(class="work-item")
+                        .work-item__thumb
+                            img(class="" src="https://picsum.photos/600/380")
+                        a(class="work-item__link" href="")
+                            span.work-item__title
+                                | 銀行 VIP 尊爵權益平台
+                                br
+                                | －－前台 & 後台管理系統
+                            span.work-item__role UI/UX Design & Frontend Implementation
+                    div(class="work-item")
+                        .work-item__thumb
+                            img(class="" src="https://picsum.photos/500/320")
+                        a(class="work-item__link" href="")
+                            span.work-item__title
+                                | 銀行全站前端元件重構
+                                br
+                                | 與切版工作流導入
+                            span.work-item__role UI Development & Workflow Architecture
+                button(class="btn" type="button") More Works
+            // Contact
+            section.section.min-vh-100.justify-content-center
+                h2(class="section-title text-center") Contact
+                .d-flex.flex-column.align-items-center
+                    dl.contact-schedule
+                        dt 專案承接時程
+                        dd 2026 年 11 月下旬起
+                    p 目前開放 11 月下旬起的專案洽詢。若有急件或其他合作需求，歡迎來信討論。
+                button(class="btn-mail" type="button")
+                    i.fas.fa-envelope
+                    span.oxanium-regular elsacheng.dev@gmail.com
+            // Footer
+            footer
             a(href="")
             .footer-content
                 p © 2026 / Elsa Cheng
                 a(href="" target="_blank") View Source
+
+        script(src="../js/external/swiper-bundle.min.js" type="text/javascript")

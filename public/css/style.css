@@ -18,7 +18,7 @@
 //   02.Typography
 // -----------------------------------*/
 /* ----- 修正微軟正黑體粗體 ----- */
-@import url("https://fonts.googleapis.com/css2?family=Monomakh&family=Noto+Sans+TC:wght@400;700&family=Prompt:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monomakh&family=Noto+Sans+TC:wght@400;700&family=Oxanium&family=Prompt:wght@300;700&display=swap");
 @font-face {
   font-family: "Microsoft JHengHei Repair";
   unicode-range: U+7db0, U+78A7, U+7B75;
@@ -130,7 +130,7 @@
   --bs-dark-border-subtle: #767676;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Noto Sans TC" m, "Segoe UI", "WenQuanYi Zen Hei", "Heiti TC", "Droid Sans", Roboto, "Microsoft JHengHei Repair", "Microsoft JHengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "Segoe UI", "WenQuanYi Zen Hei", "Heiti TC", "Droid Sans", Roboto, "Microsoft JHengHei Repair", "Microsoft JHengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -7074,95 +7074,6 @@ textarea:focus {
 
 /* *************************************
 //
-//   TCB -- Layout
-//   -> 格局框架設定
-//
-//   00.Global
-//   01.Header
-//   02.Nav
-//   03.Search bar
-//   04.Section title
-//   05.
-//   99.footer
-//
-//
-// ************************************/
-/* -------------------------------------
-//   00.Global
-// -----------------------------------*/
-/* -------------------------------------
-//   01.Header
-// -----------------------------------*/
-.header {
-  position: fixed;
-  display: flex;
-  top: 0;
-  left: 0;
-  height: 50px;
-  width: 100vw;
-  justify-content: space-between;
-  padding-left: 0.75rem;
-  padding-right: 1.25rem;
-}
-
-.h1-logo {
-  display: flex;
-  header: 50px;
-  width: 50px;
-  justify-content: center;
-  align-items: center;
-}
-.h1-logo__img {
-  height: 50px;
-  width: 50px;
-}
-
-.nav ul {
-  display: flex;
-}
-.nav li {
-  list-style: none;
-}
-.nav .navlink-item {
-  display: flex;
-  color: #1A1A1A;
-  font-size: 1.5rem;
-}
-
-/* -------------------------------------
-//   02.Content
-// -----------------------------------*/
-.section {
-  position: relative;
-}
-
-.section-title {
-  font-family: "Monomakh", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 8rem;
-  letter-spacing: -2px;
-}
-
-.site-title {
-  position: absolute;
-  top: 50%;
-  left: 0.25rem;
-  transform: translateY(-50%);
-}
-
-.job-position {
-  position: absolute;
-  bottom: 0;
-  left: 0.5rem;
-  font-size: 3rem;
-}
-
-/* -------------------------------------
-//   99.Footer
-// -----------------------------------*/
-/* *************************************
-//
 //   Works -- Module
 //   -> 元件模組
 //
@@ -7210,6 +7121,282 @@ textarea:focus {
   font-family: "Monomakh", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+.oxanium-regular {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* *************************************
+//
+//   TCB -- Layout
+//   -> 格局框架設定
+//
+//   00.Global
+//   01.Header
+//   02.Nav
+//   03.Search bar
+//   04.Section title
+//   05.
+//   99.footer
+//
+//
+// ************************************/
+/* -------------------------------------
+//   00.Global
+// -----------------------------------*/
+/* -------------------------------------
+//   01.Header
+// -----------------------------------*/
+.header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  justify-content: space-between;
+  padding-left: 0.75rem;
+  padding-right: 1.25rem;
+  z-index: 1000;
+}
+
+.h1-logo {
+  display: flex;
+  header: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.h1-logo__img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav ul {
+  display: flex;
+}
+.nav li {
+  list-style: none;
+}
+.nav .navlink-item {
+  display: flex;
+  color: #1A1A1A;
+  font-size: 1.5rem;
+}
+
+/* -------------------------------------
+//   02.Content
+// -----------------------------------*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh 0;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-family: "Monomakh", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  letter-spacing: -2px;
+  margin-left: 0.25rem;
+  margin-bottom: 0;
+}
+.section-title-caption {
+  position: relative;
+  margin-left: 0.5rem;
+  top: -0.5rem;
+}
+
+/* -------------------------------------
+//   99.Footer
+// -----------------------------------*/
+/* *************************************
+//
+//   Works -- Partial
+//   -> 個別頁面樣式設定
+//
+//
+//   01.
+//   02.
+//   03.
+//   04.
+//   05.
+//   06.
+//   07.
+//   08.
+//
+//
+// ************************************/
+/* -------------------------------------
+//   01.Top
+// -----------------------------------*/
+.site-title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.job-position {
+  position: absolute;
+  bottom: 0;
+  left: 0.5rem;
+  font-size: 3rem;
+}
+
+/* -------------------------------------
+//   02.About
+// -----------------------------------*/
+.about-content {
+  display: flex;
+  width: auto;
+  max-width: 500px;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 16rem 0;
+}
+@media (min-width: 992px) {
+  .about-content {
+    max-width: 100%;
+    flex-direction: row;
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  .about-content__img {
+    height: 350px;
+    width: 280px;
+  }
+}
+.about-content__txt {
+  margin-top: 4rem;
+  line-height: 1.8;
+}
+@media (min-width: 992px) {
+  .about-content__txt {
+    width: 550px;
+    margin-top: 0;
+    margin-left: 6.25rem;
+  }
+}
+
+/* -------------------------------------
+//   03.Works
+// -----------------------------------*/
+.works-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem 0;
+  width: 100%;
+  margin: 10rem auto 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+@media (min-width: 992px) {
+  .works-container {
+    max-width: 1380px;
+  }
+}
+
+.work-item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 100%;
+}
+.work-item__thumb {
+  height: 200px;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .work-item__thumb {
+    height: auto;
+    max-width: 100%;
+  }
+}
+.work-item__thumb img {
+  object-fit: cover;
+  object-position: center;
+}
+.work-item__link {
+  display: flex;
+  flex-direction: column;
+}
+.work-item__link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.work-item__title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #1A1A1A;
+  line-height: 1.25;
+  margin-top: 0.5rem;
+}
+.work-item__role {
+  font-size: 1rem;
+  color: #575757;
+  margin-top: 0.25rem;
+}
+
+/* ------ Grid ------ */
+@media (min-width: 992px) {
+  .work-item:first-child {
+    left: 10%;
+  }
+  .work-item:nth-child(2) {
+    align-self: flex-end;
+  }
+  .work-item:nth-child(3) {
+    align-self: flex-start;
+  }
+}
+/* -------------------------------------
+//   04.Contact
+// -----------------------------------*/
+.contact-schedule {
+  display: flex;
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+.contact-schedule dt,
+.contact-schedule dd {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.contact-schedule dt {
+  position: relative;
+  margin-right: 2rem;
+}
+.contact-schedule dt::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1em;
+  width: 1px;
+  top: 0.325em;
+  right: -1rem;
+  background-color: #1A1A1A;
+}
+.contact-schedule dd {
+  margin-bottom: 0;
 }
 
 /*  */

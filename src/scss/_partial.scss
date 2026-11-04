@@ -19,13 +19,184 @@
 //   01.Top
 // -----------------------------------*/
 
+.site-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.job-position {
+    position: absolute;
+    bottom: 0;
+    left: .5rem;
+    font-size: 3rem;
+}
 
 /* -------------------------------------
 //   02.About
 // -----------------------------------*/
+
+.about-content {
+    display: flex;
+    width: auto;
+    max-width: 500px;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 16rem 0;
+
+    @include media-breakpoint-up(lg) {
+        max-width: 100%;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    &__img {
+        @include media-breakpoint-up(lg) {
+            height: 350px;
+            width: 280px;
+        }
+    }
+
+    &__txt {
+        margin-top: 4rem;
+        line-height: 1.8;
+
+        @include media-breakpoint-up(lg) {
+            width: 550px;
+            margin-top: 0;
+            margin-left: 6.25rem;
+        }
+    }
+
+}
+
+
+
 /* -------------------------------------
 //   03.Works
 // -----------------------------------*/
+
+.works-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem 0;
+    width: 100%;
+    margin: 10rem auto 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    @include media-breakpoint-up(lg) {
+        max-width: 1380px;
+    }
+}
+
+.work-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 100%;
+
+    @include media-breakpoint-up(xl) {}
+
+    &__thumb {
+        height: 200px;
+        width: 100%;
+        max-width: 500px;
+        overflow: hidden;
+
+        @include media-breakpoint-up(lg) {
+            height: auto;
+            max-width: 100%;
+        }
+
+        img {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__title {
+        font-size: 1.75rem;
+        font-weight: bold;
+        color: $gray-900;
+        line-height: 1.25;
+        margin-top: .5rem;
+    }
+
+    &__role {
+        font-size: 1rem;
+        color: $gray-600;
+        margin-top: .25rem;
+    }
+}
+
+/* ------ Grid ------ */
+
+@include media-breakpoint-up(lg) {
+    .work-item {
+        &:first-child {
+            left: 10%;
+        }
+
+        &:nth-child(2) {
+            align-self: flex-end;
+        }
+
+        &:nth-child(3) {
+            align-self: flex-start;
+        }
+
+
+    }
+}
+
 /* -------------------------------------
 //   04.Contact
 // -----------------------------------*/
+
+.contact-schedule {
+    display: flex;
+    position: relative;
+    margin-bottom: .75rem;
+
+    dt,
+    dd {
+        font-weight: normal;
+        font-size: 1.5rem;
+    }
+
+    dt {
+        position: relative;
+        margin-right: 2rem;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 1em;
+            width: 1px;
+            top: .325em;
+            right: -1rem;
+            background-color: $body-color;
+        }
+    }
+
+    dd {
+        margin-bottom: 0;
+    }
+}

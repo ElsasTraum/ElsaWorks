@@ -32,7 +32,6 @@
     font-style: normal;
 }
 
-
 .prompt-light {
     @include prompt;
     font-weight: 300;
@@ -45,4 +44,11 @@
 
 .monomakh-regular {
     @include monomakh-regular;
+}
+
+.oxanium-regular {
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }

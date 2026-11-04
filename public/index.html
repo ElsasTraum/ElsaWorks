@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="header">
-      <h1><a class="h1-logo" href=""><img class="h1-logo__img" src="img/logo.svg"/><span class="d-none">Works of Elsa Cheng</span></a></h1>
+      <h1><a class="h1-logo" href="#"><img class="h1-logo__img" src="img/logo.svg"/><span class="d-none">Works of Elsa Cheng</span></a></h1>
       <nav class="nav">
         <ul>
           <li><a class="navlink-item" href="#">Top</a></li>
@@ -19,50 +19,60 @@
         </ul>
       </nav>
     </header>
-    <!-- Top-->
-    <section class="section min-vh-100">
-      <h2 class="section-title site-title">Elsa Cheng</h2>
-      <div class="job-position"><span class="prompt-light">Senior</span><span class="visually-hidden"> </span><span class="prompt-bold">UI/UX</span><span class="visually-hidden"> </span><span class="prompt-light">Designer + Design</span><span class="visually-hidden"> </span><span class="prompt-bold">Developer</span></div>
-    </section>
-    <!-- About-->
-    <section class="section">
-      <h2 class="visually-hidden">About</h2>
-      <div class="true"><img src="" alt=""/>
-        <div>
-          <p>擁有 10+ 年經驗的 UI/UX 設計師。<br/>長期服務於大型企業與公共系統相關專案。<br/>精於 RWD、無障礙規範與前端實作。</p>
-          <p>以設計與開發的雙重思維，<br/>提供完整介面體驗設計，以及易於維護的高品質切版交付。</p>
-          <button class="btn" type="button">About Me</button>
+    <div class="wrapper">
+      <!-- Top-->
+      <section class="section min-vh-100">
+        <h2 class="section-title site-title">Elsa Cheng</h2>
+        <div class="job-position"><span class="prompt-light">Senior</span><span class="visually-hidden"> </span><span class="prompt-bold">UI/UX</span><span class="visually-hidden"> </span><span class="prompt-light">Designer + Design</span><span class="visually-hidden"> </span><span class="prompt-bold">Developer</span></div>
+      </section>
+      <!-- About-->
+      <section class="section min-vh-100 justify-content-center">
+        <h2 class="visually-hidden">About</h2>
+        <div class="about-content"><img class="about-content__img" src="https://picsum.photos/280/350" alt=""/>
+          <div class="about-content__txt">
+            <p>擁有 10+ 年經驗的 UI/UX 設計師。<br/>長期服務於大型企業與公共系統相關專案。<br/>精於 RWD、無障礙規範與前端實作。</p>
+            <p>以設計與開發的雙重思維，<br/>提供完整介面體驗設計，以及易於維護的高品質切版交付。</p>
+            <button class="btn" type="button">More About Me</button>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- Works-->
-    <section class="section">
-      <h2 class="section-title">Selected Works</h2>
-      <div>
-        <p>因保密協議 (NDA) 限制，<br/>企業專案已進行去識別化處理。</p>
-      </div>
-      <div class="work-content">
-        <div class="work-item"><img class="work-thumb" src=""/><a href=""><span class="work-title">公車即時動態資訊系統</span><span class="work-role">UI/UX Design & Frontend Implementation</span></a></div>
-        <div class="work-item"><img class="work-thumb" src=""/><a href=""><span class="work-title">銀行 VIP 尊爵權益平台<br/>－－前台 & 後台管理系統</span><span class="work-role">UI/UX Design & Frontend Implementation</span></a></div>
-        <div class="work-item"><img class="work-thumb" src=""/><a href=""><span class="work-title">銀行全站前端元件重構<br/>與切版工作流導入</span><span class="work-role">UI Development & Workflow Architecture</span></a></div>
-      </div>
-      <button class="btn" type="button">More Works</button>
-    </section>
-    <!-- Contact-->
-    <section class="section">
-      <h2 class="section-title">Contact</h2>
-      <dl>
-        <dt>專案承接時程</dt>
-        <dd>2026 年 11 月下旬起</dd>
-      </dl>
-      <p>目前開放 11 月下旬起的專案洽詢。若有急件或其他合作需求，歡迎來信討論。</p>
-      <button class="btn-mail" type="button"><i class="fas fa-envelope"></i><span>elsacheng.dev@gmail.com</span></button>
-    </section>
-    <!-- Footer-->
-    <footer><a href=""></a>
+      </section>
+      <!-- Works-->
+      <section class="section">
+        <h2 class="section-title">Selected Works</h2>
+        <div class="section-title-caption">
+          <p>因保密協議 (NDA) 限制，<br/>企業專案已進行去識別化處理。</p>
+        </div>
+        <div class="works-container">
+          <div class="work-item">
+            <div class="work-item__thumb"><img src="https://picsum.photos/670/350"/></div><a class="work-item__link" href=""><span class="work-item__title">公車即時動態資訊系統</span><span class="work-item__role">UI/UX Design & Frontend Implementation</span></a>
+          </div>
+          <div class="work-item">
+            <div class="work-item__thumb"><img src="https://picsum.photos/600/380"/></div><a class="work-item__link" href=""><span class="work-item__title">銀行 VIP 尊爵權益平台<br/>－－前台 & 後台管理系統</span><span class="work-item__role">UI/UX Design & Frontend Implementation</span></a>
+          </div>
+          <div class="work-item">
+            <div class="work-item__thumb"><img src="https://picsum.photos/500/320"/></div><a class="work-item__link" href=""><span class="work-item__title">銀行全站前端元件重構<br/>與切版工作流導入</span><span class="work-item__role">UI Development & Workflow Architecture</span></a>
+          </div>
+        </div>
+        <button class="btn" type="button">More Works</button>
+      </section>
+      <!-- Contact-->
+      <section class="section min-vh-100 justify-content-center">
+        <h2 class="section-title text-center">Contact</h2>
+        <div class="d-flex flex-column align-items-center">
+          <dl class="contact-schedule">
+            <dt>專案承接時程</dt>
+            <dd>2026 年 11 月下旬起</dd>
+          </dl>
+          <p>目前開放 11 月下旬起的專案洽詢。若有急件或其他合作需求，歡迎來信討論。</p>
+        </div>
+        <button class="btn-mail" type="button"><i class="fas fa-envelope"></i><span class="oxanium-regular">elsacheng.dev@gmail.com</span></button>
+      </section>
+      <!-- Footer-->
+      <footer></footer><a href=""></a>
       <div class="footer-content">
         <p>© 2026 / Elsa Cheng</p><a href="" target="_blank">View Source</a>
       </div>
-    </footer>
+    </div>
+    <script src="../js/external/swiper-bundle.min.js" type="text/javascript"></script>
   </body>
 </html>

@@ -31,6 +31,7 @@
     justify-content: space-between;
     padding-left: .75rem;
     padding-right: 1.25rem;
+    z-index: 1000;
 }
 
 .h1-logo {
@@ -66,29 +67,30 @@
 /* -------------------------------------
 //   02.Content
 // -----------------------------------*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh 0;
+}
 
 .section {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-title {
     @include monomakh-regular;
     font-size: 8rem;
     letter-spacing: -2px;
-}
+    margin-left: .25rem;
+    margin-bottom: 0;
 
-.site-title {
-    position: absolute;
-    top: 50%;
-    left: .25rem;
-    transform: translateY(-50%);
-}
-
-.job-position {
-    position: absolute;
-    bottom: 0;
-    left: .5rem;
-    font-size: 3rem;
+    &-caption {
+        position: relative;
+        margin-left: .5rem;
+        top: -.5rem;
+    }
 }
 
 /* -------------------------------------
